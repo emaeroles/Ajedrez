@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="650.0" prefWidth="945.0" style="-fx-border-color: #ab5e19; -fx-border-width: 5px;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.grupo5.fronttpajedrez.controllers.TableroController">
+   <children>
+      <Pane prefHeight="640.0" prefWidth="640.0" style=": ;">
+         <children>
+            <Button fx:id="btn81" layoutX="5.0" layoutY="5.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn82" layoutX="85.0" layoutY="5.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn83" layoutX="165.0" layoutY="5.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn84" layoutX="245.0" layoutY="5.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn85" layoutX="325.0" layoutY="5.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn87" layoutX="485.0" layoutY="5.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn86" layoutX="405.0" layoutY="5.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn88" layoutX="565.0" layoutY="5.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn77" layoutX="485.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn75" layoutX="325.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn76" layoutX="405.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn74" layoutX="245.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn73" layoutX="165.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn72" layoutX="85.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn71" layoutX="5.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn78" layoutX="565.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn68" layoutX="565.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn66" layoutX="405.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn67" layoutX="485.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn65" layoutX="325.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn64" layoutX="245.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn63" layoutX="165.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn62" layoutX="85.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn61" layoutX="5.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn58" layoutX="565.0" layoutY="245.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn51" layoutX="5.0" layoutY="245.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn52" layoutX="85.0" layoutY="245.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn53" layoutX="165.0" layoutY="245.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn54" layoutX="245.0" layoutY="245.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn56" layoutX="405.0" layoutY="245.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn55" layoutX="325.0" layoutY="245.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn57" layoutX="485.0" layoutY="245.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn41" layoutX="5.0" layoutY="325.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn42" layoutX="85.0" layoutY="325.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn43" layoutX="165.0" layoutY="325.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn44" layoutX="245.0" layoutY="325.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn45" layoutX="325.0" layoutY="325.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn47" layoutX="485.0" layoutY="325.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn46" layoutX="405.0" layoutY="325.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn48" layoutX="565.0" layoutY="325.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn37" layoutX="485.0" layoutY="405.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn35" layoutX="325.0" layoutY="405.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn36" layoutX="405.0" layoutY="405.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn34" layoutX="245.0" layoutY="405.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn33" layoutX="165.0" layoutY="405.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn32" layoutX="85.0" layoutY="405.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn31" layoutX="5.0" layoutY="405.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn38" layoutX="565.0" layoutY="405.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn28" layoutX="565.0" layoutY="485.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn26" layoutX="405.0" layoutY="485.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn27" layoutX="485.0" layoutY="485.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn25" layoutX="325.0" layoutY="485.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn24" layoutX="245.0" layoutY="485.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn23" layoutX="165.0" layoutY="485.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn22" layoutX="85.0" layoutY="485.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn21" layoutX="5.0" layoutY="485.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn18" layoutX="565.0" layoutY="565.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn11" layoutX="5.0" layoutY="565.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn12" layoutX="85.0" layoutY="565.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn13" layoutX="165.0" layoutY="565.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn14" layoutX="245.0" layoutY="565.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn16" layoutX="405.0" layoutY="565.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Button fx:id="btn15" layoutX="325.0" layoutY="565.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+            <Button fx:id="btn17" layoutX="485.0" layoutY="565.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #c07f45;" />
+         </children>
+      </Pane>
+      <Pane layoutX="645.0" prefHeight="650.0" prefWidth="300.0" style="-fx-background-color: #fae1c7; -fx-border-color: #ab5e19; -fx-border-width: 5px;">
+         <children>
+            <Button layoutX="75.0" layoutY="578.0" mnemonicParsing="false" onAction="#nuevaPartida" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: #c07f45;" text="Nueva Partida" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS" size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="lblPiezaSeleccionada" alignment="CENTER" layoutX="50.0" layoutY="25.0" prefWidth="200.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnImgTurno" layoutX="110.0" layoutY="48.0" mnemonicParsing="false" onMouseClicked="#onClickBtn" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #fae1c7;" />
+            <Label fx:id="lblEstado" alignment="CENTER" layoutX="10.0" layoutY="130.0" prefWidth="280.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblAccion" alignment="CENTER" layoutX="10.0" layoutY="170.0" prefWidth="280.0" textAlignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="txtMovBlancas" editable="false" focusTraversable="false" layoutX="15.0" layoutY="235.0" prefHeight="315.0" prefWidth="130.0">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="14.0" />
+               </font>
+            </TextArea>
+            <TextArea fx:id="txtMovNegras" editable="false" focusTraversable="false" layoutX="155.0" layoutY="235.0" prefHeight="315.0" prefWidth="130.0">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="14.0" />
+               </font>
+            </TextArea>
+            <Label layoutX="53.0" layoutY="210.0" text="Blancas">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="194.0" layoutY="210.0" text="Negras">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="15.0" />
+               </font>
+            </Label>
+         </children></Pane>
+   </children>
+</Pane>
